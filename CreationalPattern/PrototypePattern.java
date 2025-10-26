@@ -16,7 +16,7 @@ System.out.println(s2.name + s2.roll + " " + s2.enrollmentNo + " " + s2.feeCalc(
 	}
 }
 
-class Student
+class Student implements Cloneable
 {
     String name;
     int roll;
@@ -54,4 +54,3 @@ class Student
         return new Student(name, roll);
     }
 }
-
